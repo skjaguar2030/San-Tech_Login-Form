@@ -1,0 +1,107 @@
+
+/* main starts here */
+body{
+    background-color:#ffd899;
+    margin:0px;
+    padding:0px;
+}
+
+
+header{
+    background-color: rgb(255, 133, 88);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;  
+}
+
+#pitch{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 30px;
+}
+
+#nav-links a{
+   padding:15px;
+   text-decoration: none;
+   color: white;
+   font-size: 17px;
+   font-family: 'Mingzat', sans-serif;
+}
+
+
+#hello{
+    text-align: center;
+    margin-top: 200px;
+}
+
+#hello h1{
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#dot{
+    color:orangered;
+    font-size: 70px;
+}
+    
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+/* main ends here */
+    
+
+/* form starts here */
+.my-form{
+    
+    height: 460px;
+    background-color: #ffc465;
+    color: black;
+    border:0.3px solid orange;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 23%;
+    margin-right: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* position: absolute; */
+    width: 50%;
+}
+
+
+#button{
+    width: 200px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background: lightblue;
+}
+
+#button:hover{
+    background: coral;
+    cursor: pointer;
+}
+
+.inputs{
+    padding-bottom: 20px;
+}
+
+.inputs input{
+    padding: 10px;
+    background: white;
+    border: none;
+    width: 200px;
+}
+
+.supplement{
+    text-decoration: none;
+    color: black;
+}
+
+.supplement:hover{
+    color: brown;
+}
+/* form ends here */
+
